@@ -2,6 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+.AddRazorRuntimeCompilation(); // Permite recargar vistas sin reiniciar
 
 var app = builder.Build();
 
