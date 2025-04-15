@@ -9,13 +9,15 @@ namespace Taller_LigaPro.Repositories
             List<Equipo> equipos = new List<Equipo>();
             Equipo bsc = new Equipo
             {
+
+
                 Id = 1,
                 Nombre = "BSC",
                 PartidosJugados = 4,
                 PartidosGanados = 3,
                 PartidosPerdidos = 3,
                 PartidosEmpatados = 5,
-                ToatalPuntos = 0,
+                ToatalPuntos = 0, 
             };
             Equipo ldu = new Equipo
             {
@@ -52,6 +54,8 @@ namespace Taller_LigaPro.Repositories
             equipos.Add(ldu);
             equipos.Add(eml);
             return equipos;
+
+            aa
         }
     }
 }

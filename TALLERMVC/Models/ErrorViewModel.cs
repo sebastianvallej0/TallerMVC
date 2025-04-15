@@ -1,5 +1,7 @@
 namespace Taller_LigaPro.Models
 {
+
+    // comentario prueba dos 
     public class ErrorViewModel
     {
         public string? RequestId { get; set; }
