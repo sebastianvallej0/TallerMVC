@@ -6,13 +6,12 @@ namespace Taller_LigaPro.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger; // verificamos el contructor y no voy a hacer ningun cambio ya que esta todo correcto 
+    private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
     }
-    // aqui podemos ver todos los metodos que tenemos
 
     public IActionResult Index()
     {
